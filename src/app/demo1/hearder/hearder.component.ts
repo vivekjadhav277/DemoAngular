@@ -21,14 +21,9 @@ export class HearderComponent implements OnInit {
   homePage(){
     this.abc.data1 = 'abc'
 
-    this.route.navigate(['test-error'], {
-      queryParams: {
-        test: 'test',
-        test1: 'test',
-        test2: 'test',
-        test3: 'test',
-        test4: 'test',
-        test5: 'test',
+    this.route.navigate(['test-error'],{
+      queryParams:{
+        name:'vivek'
       }
     })
 
