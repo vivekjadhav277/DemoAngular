@@ -1,0 +1,11 @@
+<app-hearder></app-hearder>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
+
+<ng-container *ngFor="let people of peoples?.results">
+    <h1>{{people?.name}}</h1>
+    <div>{{people?.birth_year}} </div>
+    <br>
+</ng-container>
